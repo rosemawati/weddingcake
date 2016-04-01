@@ -4951,8 +4951,10 @@ a.badge:focus {
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;text-align:center;
+    padding-right: 50px;
+    padding-left: 50px;text-align:center;padding-top: 30px;
+    padding-bottom: 30px;
+
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -5443,10 +5445,10 @@ button.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
+  background-color:Scrollbar;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;text-align:center;
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
@@ -5477,7 +5479,7 @@ button.list-group-item-danger.active:focus {
   border-top-width: 0;
 }
 .list-group + .panel-footer {
-  border-top-width: 0;
+  border-top-width:100PX;
 }
 .panel > .table,
 .panel > .table-responsive > .table,
@@ -6708,3 +6710,9 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.logo {
+float:right;
+margin:0%;
+position:relative;
+}
