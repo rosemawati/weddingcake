@@ -1134,6 +1134,8 @@ img {
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+          float:right;
+          
 }
 .img-circle {
   border-radius: 50%;
@@ -5480,6 +5482,7 @@ button.list-group-item-danger.active:focus {
 }
 .list-group + .panel-footer {
   border-top-width:100PX;
+  margin-top:100%;
 }
 .panel > .table,
 .panel > .table-responsive > .table,
@@ -6715,4 +6718,6 @@ button.close {
 float:right;
 margin:0%;
 position:relative;
+padding-top:-0.5px;
+padding-bottom:-0.5px;
 }
