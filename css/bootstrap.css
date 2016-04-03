@@ -1320,10 +1320,11 @@ mark,
   white-space: nowrap;
 }
 .text-lowercase {
-  text-transform: lowercase;
+  text-transform: lowercase;text-align:center;
 }
 .text-uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase;text-align:center;font-weight: bold;
+
 }
 .text-capitalize {
   text-transform: capitalize;
