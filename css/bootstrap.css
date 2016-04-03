@@ -6708,3 +6708,11 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.logo {
+float:right;
+margin:0%;
+position:relative;
+padding-top:-0.5px;
+padding-bottom:-0.5px;
+}
+
