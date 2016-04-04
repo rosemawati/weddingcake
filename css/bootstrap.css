@@ -1134,6 +1134,8 @@ img {
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+          float:right;
+          
 }
 .img-circle {
   border-radius: 50%;
@@ -1267,7 +1269,7 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;text-align:center;bold;
+  font-size: 24px;
 }
 h4,
 .h4 {
@@ -1320,11 +1322,10 @@ mark,
   white-space: nowrap;
 }
 .text-lowercase {
-  text-transform: lowercase;text-align:center;
+  text-transform: lowercase;
 }
 .text-uppercase {
-  text-transform: uppercase;text-align:center;font-weight: bold;
-
+  text-transform: uppercase;
 }
 .text-capitalize {
   text-transform: capitalize;
@@ -1642,7 +1643,7 @@ pre code {
   width: 41.66666667%;
 }
 .col-xs-4 {
-  width: 23.33333333%;
+  width: 33.33333333%;
 }
 .col-xs-3 {
   width: 25%;
@@ -1957,7 +1958,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-md-4 {
-    width: 23.33333333%;
+    width: 33.33333333%;
   }
   .col-md-3 {
     width: 25%;
@@ -3479,7 +3480,8 @@ tbody.collapse.in {
 }
 .dropup,
 .dropdown {
-  position: relative;
+  position:relative;width:70%;
+	float:left;margin: 20px 20px 0 0;
 }
 .dropdown-toggle:focus {
   outline: 0;
@@ -4952,8 +4954,10 @@ a.badge:focus {
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;text-align:center;
+    padding-right: 50px;
+    padding-left: 50px;text-align:center;padding-top: 30px;
+    padding-bottom: 30px;
+
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -5444,10 +5448,10 @@ button.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
+  background-color:Scrollbar;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;text-align:center;
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
@@ -5478,7 +5482,8 @@ button.list-group-item-danger.active:focus {
   border-top-width: 0;
 }
 .list-group + .panel-footer {
-  border-top-width: 0;
+  border-top-width:100PX;
+  margin-top:100%;
 }
 .panel > .table,
 .panel > .table-responsive > .table,
@@ -6709,6 +6714,7 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
 .logo {
 float:right;
 margin:0%;
@@ -6716,4 +6722,3 @@ position:relative;
 padding-top:-0.5px;
 padding-bottom:-0.5px;
 }
-
