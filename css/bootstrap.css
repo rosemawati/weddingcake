@@ -1640,13 +1640,13 @@ pre code {
   width: 50%;
 }
 .col-xs-5 {
-  width: 41.66666667%;
+  width: 30%;
 }
 .col-xs-4 {
-  width: 33.33333333%;
+  width: 25%;
 }
 .col-xs-3 {
-  width: 25%;
+  width: 25.55555555%;
 }
 .col-xs-2 {
   width: 16.66666667%;
@@ -6722,3 +6722,5 @@ position:relative;
 padding-top:-0.5px;
 padding-bottom:-0.5px;
 }
+
+
